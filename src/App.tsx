@@ -6,25 +6,25 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 
 // Pages
-import Index from "./pages/Index.tsx";
-import Catalog from "./pages/Catalog.tsx";
-import ProductDetail from "./pages/ProductDetail.tsx";
-import Login from "./pages/Login.tsx";
-import Register from "./pages/Register.tsx";
-import VerifyOtp from "./pages/VerifyOtp.tsx";
-import PendingAccess from "./pages/PendingAccess.tsx";
-import Cart from "./pages/Cart.tsx";
-import Checkout from "./pages/Checkout.tsx";
-import Orders from "./pages/Orders.tsx";
-import OrderDetail from "./pages/OrderDetail.tsx";
-import NotFound from "./pages/NotFound.tsx";
+import Index from "./pages/Index";
+import Catalog from "./pages/Catalog";
+import ProductDetail from "./pages/ProductDetail";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import VerifyOtp from "./pages/VerifyOtp";
+import PendingAccess from "./pages/PendingAccess";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
+import Orders from "./pages/Orders";
+import OrderDetail from "./pages/OrderDetail";
+import NotFound from "./pages/NotFound";
 
 // Components
-import Layout from "./components/shared/Layout.tsx";
-import AuthGuard from "./components/shared/AuthGuard.tsx";
+import Layout from "./components/shared/Layout";
+import AuthGuard from "./components/shared/AuthGuard";
 
 // Stores
-import { initializeAuth } from "./stores/auth.ts";
+import { initializeAuth } from "./stores/auth";
 
 const queryClient = new QueryClient({
   defaultOptions: {
